@@ -5,3 +5,4 @@ db-backups/*.sql
 db-backups/*.gz
 db-backups/*.xz
 db-backups/*.zip
+./drupal/web/sites/default/settings.local.php
