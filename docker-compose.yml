@@ -1,17 +1,15 @@
 version: '3'
 services:
   web:
-    image: osiolabs/drupaldevwithdocker-php
+    image: osiolabs/drupaldevwithdocker-php:7.2
     volumes:
-      - ./drupal:/var/www:cached
-    environment:
-      APACHE_DOCROOT_DIR: /var/www/web
+      - ./docroot:/var/www/html:cached
     env_file:
       - ./docker.env
     ports:
       - "80:80"
   db:
-    image: osiolabs/drupaldevwithdocker-mysql
+    image: osiolabs/drupaldevwithdocker-mysql:10.0
     volumes:
       - ./db-backups:/var/mysql/backups:delegated
     env_file:
