@@ -1,8 +1,8 @@
-./sensitive-api-key.txt
+sensitive-api-key.txt
 # Ignore common database dump files by extension
 db-backups/*.mysql
 db-backups/*.sql
 db-backups/*.gz
 db-backups/*.xz
 db-backups/*.zip
-./drupal/web/sites/default/settings.local.php
+drupal/web/sites/default/settings.local.php
