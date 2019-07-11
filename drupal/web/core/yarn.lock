@@ -3324,9 +3324,9 @@ lodash.create@3.1.1:
     lodash._basecreate "^3.0.0"
     lodash._isiterateecall "^3.0.0"
 
-lodash.defaultsdeep@4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.3.2.tgz#6c1a586e6c5647b0e64e2d798141b8836158be8a"
+lodash.defaultsdeep@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#6c1a586e6c5647b0e64e2d798141b8836158be8a"
   dependencies:
     lodash._baseclone "^4.0.0"
     lodash._stack "^4.0.0"
@@ -3718,7 +3718,7 @@ nightwatch@^0.9.20:
     chai-nightwatch "~0.1.x"
     ejs "2.5.7"
     lodash.clone "3.0.3"
-    lodash.defaultsdeep "4.3.2"
+    lodash.defaultsdeep "4.6.1"
     minimatch "3.0.3"
     mkpath "1.0.0"
     mocha-nightwatch "3.2.2"
